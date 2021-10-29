@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Android;
+    src: url(font/idroid.otf) ;
+
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+
+body {
+    font: normal lighter 1em sans-serif;
+    margin: 0px;
+    background-color: rgba(235, 213, 175, 0.583);
+}
+
+p {
+    text-indent: 30px;
+    padding: 0px 0px 0px 20px;
+    text-align: justify;
+}
+
+h1 {
+    font-family:  'Bebas Neue', cursive;;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+header > p {
+    text-align: center;
+    color: white;
+}
+
+.subtitulo {
+    font-family: Android, 'Times New Roman', Times, serif;
+    text-indent: 15px;
+    color: #05351A;
+}
+
+h3.subtitulo {
+    background-image: linear-gradient(to right, #75FF9F, #ffffff);
+    color: #09592c;
+}
+
+header {
+    background-image: linear-gradient(to top, #05351A, #2EA464);
+    margin: 0px 0px 0px 0px ;
+    padding: 30px 0px 0px 0px ;
+}
+
+section {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 1px;
+}
+
+header > nav {
+    color: #3be26d;
+    padding: 5px;
+   font-weight: bold;
+}
+
+
+aside {
+    background-color: #83E1AD;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.165);
+}
+
+#tituloaside {
+    color: white;
+    background-color: #1A5C37;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    margin: 1px;
+}
+
+#video {
+    background-color: #1A5C37;
+}
+
+footer {
+    background-color: #1A5C37;
+    color: white;
+    margin: 0px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(29, 192, 135);
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.link:hover {
+    color: #05351A;
+    background-color: rgb(29, 192, 135);
+    padding: 6px;
+
+}
+
+.marcação {
+    color: #076631;
+    font-weight: bold;
+}
+
+.link2 {
+    background: #75FF9F;
+    color: #05351A;
+    font-weight: bold;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.link2:hover {
+    text-decoration: underline;
+    color: #11723b;
+}
+
+#dexter:hover{
+    text-decoration: underline;
+    color: #57c085;
+}
