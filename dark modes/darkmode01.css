@@ -1,0 +1,42 @@
+:root {
+    --color-text: #000;
+    --background-color: #fff;
+    --background-color2: #f2f2f2;
+
+}
+
+body {
+    font-family: Arial, sans-serif
+}
+
+main {
+    background: var(--background-color);
+    color: var(--color-text);
+    width: 100%;
+    position: absolute;
+    transition: .5s ease-in-out background, .5s ease-in-out color;
+}
+
+
+
+#darkmodeToggle:checked + .container {
+    --color-text: #fff;
+    --background-color: #000;
+    --background-color2: #222;
+
+    background: var(--background-color);
+    color: var(--color-text);
+    transition: .5s ease-in-out background, .5s ease-in-out color;
+}
+
+#darkmodeToggle:checked + .main .darkmodeLabel:after {
+    content: ' on'
+}
+
+.darkmodeLabel {
+    cursor: pointer;
+}
+
+.darkmodeLabel:after {
+    content: ' off';
+}
