@@ -132,7 +132,7 @@ main {
     margin: auto;
     padding: 20px;
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.446);
-    min-width: 400px;
+    min-width: 300px;
     max-width: 1000px
 }
 
